@@ -1,0 +1,101 @@
+#portfolio {
+    position:relative;
+    width:100%;
+    background-color: #f3f3f3;
+}
+
+.work {
+    margin:auto;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,000000+100 */
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.02) 0%, rgba(0,0,0,0.02) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.02) 0%,rgba(0,0,0,0.02) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,0.02) 0%,rgba(0,0,0,0.02) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+.work-sm {
+    width:285px;
+    height:193px;
+}
+
+.work-md {
+    width:285px;
+    height:278px;
+}
+
+
+/* Button */
+#portfolio .btn {
+    margin:162px auto;
+    color:#000;
+    border:1px solid #000;
+}
+
+.btn:hover {
+    background:#ada074;
+    color:#fff;
+    border:none;
+}
+
+/* WORKS */
+
+.work {
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    transition: all 1s;
+}
+
+.work:hover {
+    -webkit-filter: none; /* Chrome, Safari, Opera */
+    filter: none;
+}
+
+.work-1 {
+    background: url('../img/work-1.png') center no-repeat;
+}
+
+.work-2 {
+    background: url('../img/work-2.png') center no-repeat;
+}
+
+.work-3 {
+    background: url('../img/work-3.png') center no-repeat;
+}
+
+.work-4 {
+    background: url('../img/work-4.png') center no-repeat;
+}
+
+.work-5 {
+    background: url('../img/work-5.png') #303030 center no-repeat;
+}
+
+
+.work-6 {
+    background: url('../img/work-6.png') center no-repeat;
+}
+
+.work-7 {
+    background: url('../img/work-7.png') center no-repeat;
+}
+
+
+.work-8 {
+    background: url('../img/work-8.png') center no-repeat;
+}
+
+
+.work-9 {
+    background: url('../img/work-9.png') center no-repeat;
+}
+
+
+.work-10 {
+    background: url('../img/work-10.png') center no-repeat;
+}
+
+
+.work-11 {
+    background: url('../img/work-11.png') center no-repeat;
+}

@@ -1,0 +1,57 @@
+/* Хедер 1080px с задним фоном */
+header {
+    position:relative;
+    height:1080px;
+    background: url('../img/bg.jpg') center no-repeat;
+    background-size:cover;
+}
+
+
+.header-overlay {
+    position:relative;
+    width:100%;
+    height:1080px;
+    background-color: RGBA(51,51,51,0.5);
+    z-index:999;
+}
+
+/* Первый блок сайта + наложение на картинку полупрозрачного фона */
+
+
+/* Контент первого блока для desktop */
+.content {
+    margin:0 auto;
+    text-align: center;
+    padding-top: 220px;
+}
+
+/* Кнопка Узнать стоимость */
+.btn {
+    margin-top:142px;
+    width: 202px;
+    height: 48px;
+    color:#fff;
+    border:1px solid #fff;
+    background:transparent;
+    border-radius: 0;
+    transition: background 2s;
+}
+
+#portfolio .btn:hover {
+    background:#ada074;
+    color:#fff;
+    border:none;
+}
+
+.scroll {
+    margin:75px auto;
+    width:50px;
+    height:50px;
+    background: url('../img/arrow-down.png') center no-repeat;
+    transition: .65s;
+}
+
+.scroll:hover {
+    margin:100px auto;
+    cursor: pointer;
+}

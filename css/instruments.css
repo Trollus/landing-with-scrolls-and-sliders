@@ -1,0 +1,40 @@
+footer {
+    background: url('../img/footer-bg.png') center no-repeat;
+    background-size:cover;
+    opacity:15;
+}
+
+#services {
+    position:relative;
+    width:100%;
+    background-color: RGBA(0,0,0,0.85);
+}
+
+.well {
+    background:none;
+    border:none;
+}
+
+.item {
+    background:none;
+}
+
+.carousel-inner {
+    padding:5px 55px 5px 55px;
+}
+
+.carousel-control.left  {
+    background: none;
+    opacity: 1;
+}
+.carousel-control.right  {
+    background: none;
+    opacity: 1;
+}
+
+.img-responsive {
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1; /* Fix for IE7 */
+    *display: inline; /* Fix for IE7 */
+}

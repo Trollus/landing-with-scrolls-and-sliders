@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>AdSolut</title>
+
+
+    <!-- JQuery -->
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <!-- Стили, разделенные по блокам + шрифты -->
+    <link rel="stylesheet" type="text/css" href="css/stroke.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="css/instruments.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <!-- Шрифты, стили текстов и заголовков -->
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+    <!-- Скрипты -->
+
+
+</head>
+<body>
+<!--
+
+    [ первый блок  ]
+
+ -->
+    <header>
+        <div class="header-overlay">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="content">
+
+
+                            <img src="img/logo.png" alt="logo">
+
+                            <h2>ГЕНИАЛЬНЫЙ ДИЗАЙН<br> ПРОДАЮЩИЕ САЙТЫ</h2>
+                            <div class="p-sm"><p>Мы увеличим Ваши продажи через сайт</p></div>
+                            <div class="p-md"><p>на 20-60%</p></div>
+
+                            <!-- Кнопка для открытия модального окна -->
+                            <button class="btn" id="myBtn">Узнать стоимость</button>
+
+                            <!-- Создаем кнопку для прокрутки вниз -->
+                            <div class="scroll"></div>
+                        </div>
+
+
+                    </div>
+                </div>
+        </div>
+    </header>
+
+    <script>
+        $(".scroll").click(function() {
+            $('html,body').animate({
+                        scrollTop: $(".nav").offset().top},
+                    'slow');
+        });
+    </script>
+
+
+<!--
+
+    [    меню     ]
+
+ -->
+
+    <div id="nav">
+        <div class="navbar navbar-default navbar-static">
+            <div class="container">
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><h4><a href="#">AdSolut</a></h4></li>
+                    </ul>
+                    <ul class="nav pull-right navbar-nav">
+                        <li><a href="#about" class="nav-link">О НАС</a></li>
+                        <li><a href="#portfolio" class="nav-link">PORTFOLIO</a></li>
+                        <li><a href="#" class="nav-link">УСЛУГИ</a></li>
+                        <li><a href="#" class="nav-link" id="myBtn2">КОНТАКТЫ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--
+
+    [    о нас     ]
+
+ -->
+
+<div class="container" id="about">
+
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <div>
+                    <h2>ПОЧЕМУ МЫ</h2>
+                    <p>Потому что Вам нужен крутой сайт.</p>
+                    <p>Мы не экономим на качестве и говорим на понятном языке.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 col-md-4">
+                <img src="img/design.png" alt="design">
+                <h1>Дизайн</h1>
+                <p>Мы уговорили нескольких дизайнеров
+                    из лучших студий фрилансить на нас.
+                    Высокий уровень без переплат
+                    за бренд и понты студии.</p>
+            </div>
+            <div class="col-sm-4 col-md-4">
+                <img src="img/tech.png" alt="tech">
+                <h1>Технологии</h1>
+                <p>Мы можем сделать абсолютно любой сайт.
+                    Ещё раз для невнимательных:
+                    Абсолютно. Любой. Сайт. </p>
+            </div>
+            <div class="col-sm-4 col-md-4">
+                <img src="img/sales.png" alt="sales">
+                <h1>Продажи</h1>
+                <p>Наши сайты - это голос крёстного отца,
+                    делающий предложения, от
+                    которых невозможно отказаться.
+                    Поэтому клиент нажимает „Купить”.</p>
+            </div>
+        </div>
+</div>
+
+<!--
+
+  [  кусок портфолио  ]
+
+ -->
+
+    <div id="portfolio" class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+            <h2>KUSOK PORTFOLIO</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="work work-sm work-1"></div>
+                <div class="work work-md work-4"></div>
+                <div class="work work-sm work-7"></div>
+                <div class="work work-md work-10"></div>
+            </div>
+            <div class="col-md-4">
+                <div class="work work-sm work-2"></div>
+                <div class="work work-sm work-5"></div>
+                <div class="work work-sm work-8"></div>
+                <div class="work work-md work-11"></div>
+            </div>
+            <div class="col-md-4">
+                <div class="work work-sm work-3"></div>
+                <div class="work work-md work-6"></div>
+                <div class="work work-sm work-9"></div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Кнопка для открытия модального окна -->
+            <button class="btn">ОК, ПОЗВОНИТЕ МНЕ</button>
+        </div>
+    </div>
+
+<!--
+
+     [  инструменты  ]
+
+ -->
+
+    <footer id="services">
+
+        <div class="container">
+            <div class="row">
+            <h1>Что мы используем кроме таланта</h1>
+            </div>
+
+            <div class="well">
+                <div id="myCarousel" class="carousel slide">
+
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="row">
+                                <div class="col-sm-3"><a
+                                        href="#x"><img src="./img/instruments/google.png" alt="Image"
+                                                       class="img-responsive"></a>
+                                </div>
+                                <div class="col-sm-3"><a href="#x"><img src="./img/instruments/wp.png" alt="Image"
+                                                                        class="img-responsive"></a>
+                                </div>
+                                <div class="col-sm-3"><a href="#x"><img src="./img/instruments/1c.png" alt="Image"
+                                                                        class="img-responsive"></a>
+                                </div>
+                                <div class="col-sm-3"><a href="#x"><img src="./img/instruments/amo.png" alt="Image"
+                                                                        class="img-responsive"></a>
+                                </div>
+                            </div>
+                            <!--/row-->
+                        </div>
+                        <!--/item-->
+                        <!--/item-->
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-sm-3"><a href="#x"><img src="./img/instruments/bitrix.png"
+                                                                                          alt="Image" class="img-responsive"></a>
+                                </div>
+                                <div class="col-sm-3"><a href="#x"><img src="./img/instruments/yadi.png"
+                                                                                          alt="Image" class="img-responsive"></a>
+                                </div>
+                                <div class="col-sm-3"><a href="#x"><img src="./img/instruments/yam.png"
+                                                                                          alt="Image" class="img-responsive"></a>
+                                </div>
+                                <div class="col-sm-3"><a href="#x"><img src="./img/instruments/host.png"
+                                                                                          alt="Image" class="img-responsive"></a>
+                                </div>
+                            </div>
+                            <!--/row-->
+                        </div>
+                        <!--/item-->
+                    </div>
+                    <!--/carousel-inner-->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <img src="./img/arrow-left.png" alt="go left">
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <img src="./img/arrow-right.png" alt="go right">
+                    </a>
+                </div>
+                <!--/myCarousel-->
+            </div>
+            <!--/well-->
+        </div>
+    </footer>
+
+<!-- PHP скрипт для отправки сообщения email -->
+
+
+<!-- Форма при нажатии на кнопку "узнать стоимость" -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close"></span>
+            <div class="modal-content-blocks">
+
+                <form class="modal-form" action="mail_handler.php" method="post">
+                    <input type="text" name="first_name" placeholder="First name*">
+                    <input type="text" name="last_name" placeholder="Last name*">
+                    <input type="text" name="email" id="email" placeholder="Email*">
+                    <textarea name="message" rows="4" cols="30" placeholder="Message*"></textarea>
+
+                    <button type="submit" class="btn-2 btn-modal">Отправить сообщение</button>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="js/modal.js"></script>
+
+<!-- Скрипты -->
+
+<!-- Скрипт для прилипающего меню  -->
+    <script src="js/menu.js"></script>
+
+</body>
+</html>

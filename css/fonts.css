@@ -1,0 +1,97 @@
+/* STROKE.CSS */
+/* Заголовок "гениальный диз..." */
+h2 {
+    margin-top:70px;
+    font-size:34px;
+    color:#fff;
+    letter-spacing: 8px;
+}
+
+/* Нижнее подчеркивание заголовка */
+h2::after {
+    position:relative;
+    top:66px;
+    content: '';
+    margin:auto;
+    width: 105px;
+    height: 2px;
+    background: #fff;
+    display: block;
+}
+
+#content h2 {
+    line-height:17px;
+}
+
+h4 {
+    margin-top:15px;
+	cursor:pointer;
+}
+
+/* Параграфы "Мы увеличим Ваши..." */
+.p-sm {
+    margin-top:126px;
+    font-size:14px;
+    font-weight:700;
+    color:#fff;
+}
+
+.p-md {
+    font-size:18px;
+    font-weight:600;
+    color:#fff;
+}
+
+/* Кнопка Узнать стоимость */
+.btn {
+    font-weight:600;
+}
+
+/* ABOUT.CSS */
+#about h2 {
+    text-align: center;
+    margin:130px auto;
+    color:#000;
+}
+/* Нижнее подчеркивание заголовка (некоторые параметры унаследованы с h2) */
+#about h2::after {
+    top:35px;
+    content: '';
+    width: 80px;
+    height: 1px;
+    background: #000;
+}
+
+#about p {
+    text-align:center;
+    color:#a4a4a4;
+    font-weight:600;
+}
+
+#portfolio h2 {
+    text-align: center;
+    margin:188px auto;
+    color:#000;
+}
+
+#portfolio h2::after {
+    top:35px;
+    content: '';
+    width: 80px;
+    height: 1px;
+    background: #000;
+}
+
+#services h1 {
+    margin:100px auto;
+    color:#fff;
+}
+
+a {
+	color:#000;
+}
+
+a:hover {
+	color:#000;
+	text-decoration:none;
+}
